@@ -4,10 +4,10 @@ This document provides a guide for software engineering agents working on the In
 
 ## 1. Project Overview
 
-**intervention/gif** -- Native PHP GIF encoder/decoder library. Parses and generates
-GIF binary data. Part of the [Intervention Image](https://github.com/Intervention/image) ecosystem.
+**openregion/gif** -- Native PHP GIF encoder/decoder library. Parses and generates
+GIF binary data. Part of the [Intervention Image](https://github.com/openregion/image) ecosystem.
 
-- **Language:** PHP 8.3+  |  **Namespace:** `Intervention\Gif`
+- **Language:** PHP 8.1+  |  **Namespace:** `Intervention\Gif`
 
 ### 1.1 Architecture
 

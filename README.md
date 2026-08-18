@@ -1,20 +1,22 @@
 # Intervention GIF
 ## Native PHP GIF Encoder/Decoder
 
-[![Latest Version](https://img.shields.io/packagist/v/intervention/gif.svg)](https://packagist.org/packages/intervention/gif)
-![build](https://github.com/Intervention/gif/actions/workflows/build.yml/badge.svg)
-[![Monthly Downloads](https://img.shields.io/packagist/dm/intervention/gif.svg)](https://packagist.org/packages/intervention/gif/stats)
+[![Latest Version](https://img.shields.io/packagist/v/openregion/gif.svg)](https://packagist.org/packages/openregion/gif)
+![build](https://github.com/openregion/gif/actions/workflows/build.yml/badge.svg)
+[![Monthly Downloads](https://img.shields.io/packagist/dm/openregion/gif.svg)](https://packagist.org/packages/openregion/gif/stats)
 [![Support me on Ko-fi](https://raw.githubusercontent.com/Intervention/gif/main/.github/images/support.svg)](https://ko-fi.com/interventionphp)
 
 Intervention GIF is a PHP encoder and decoder for the GIF image format that
 does not depend on any image processing extension.
+
+This repository contains the `openregion/gif` fork maintained for PHP 8.1+ compatibility.
 
 Only the special `Splitter::class` class divides the data stream of an animated
 GIF into individual `GDImage` objects for each frame and is therefore dependent
 on the GD library.
 
 The library is the main component of [Intervention
-Image](https://github.com/Intervention/image) for processing animated GIF files
+Image](https://github.com/openregion/image) for processing animated GIF files
 with the GD library, but also works independently.
 
 ## Installation
@@ -23,7 +25,7 @@ You can easily install this package using [Composer](https://getcomposer.org).
 Just request the package with the following command:
 
 ```bash
-composer require intervention/gif
+composer require openregion/gif
 ```
 
 ## Code Examples
@@ -71,7 +73,7 @@ $data = $gif->encode();
 
 ## Requirements
 
-- PHP >= 8.3
+- PHP >= 8.1
 
 ## Development & Testing
 
@@ -92,6 +94,8 @@ docker-compose run --rm --build analysis
 ## Authors
 
 This library is developed and maintained by [Oliver Vogel](https://intervention.io)
+
+This fork is co-maintained by [CIT Open Region](https://www.openregion.info/).
 
 Thanks to the community of [contributors](https://github.com/Intervention/gif/graphs/contributors) who have helped to improve this project.
 
